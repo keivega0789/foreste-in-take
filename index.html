@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- OGPの使用を宣言 -->
+<head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8"><!-- charactersetの設定。基本はUTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- SP等への表示サイズ最適化 -->
+    <!-- OGP設定 -->
+    <meta property="og:url" content=" ページのURL" /><!-- 絶対パスで記述 -->
+    <meta property="og:type" content="website" /><!-- website,blog,article,product等 -->
+    <meta property="og:title" content="便利屋 Foreste in take" /><!-- 20文字程度 -->
+    <meta property="og:description" content=" ページの説明文" /><!-- 80-90文字程度 -->
+    <meta property="og:site_name" content="サイト名" /><!-- サイト名やブランド情報 -->
+    <meta property="og:image" content=" サムネイル画像のURL" /><!-- 1200px✕630px(fb対策) -->
+    <!-- /OGP設定 -->
+    <title>便利屋 Foreste in take</title><!-- ブラウザのタブに表示される名前 -->
+    <!-- googleフォント参照：googleフォントのサイト https://fonts.google.com/ から使うフォントのコードをコピペ　-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <!-- googleアイコン参照：下記コードはテンプレ。 -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <!-- リセットCSS参照：destyle以外にも調べてみる -->
+    <link rel="stylesheet" href="css/destyle.css">
+    <!-- CSS参照 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ファビコン設置：ファビコン生成サイト https://ao-system.net/favicongenerator/ で作成し、フォルダ直下に格納する。下記名前と整合性合うように。 -->
+    <link rel="icon" type="image/png" href="icon-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon-180x180.png">
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<body>
+
+    <header id="header">
+        <div class="header-inner">
+            <div class="header-logo">
+                <a href="."><img src="aseets/img/logo.jpg" alt="ロゴ"></a>
+            </div>
+            <div class="contact">
+                <div class="telephone-time-wrapper">
+                    <div class="telephone-inner">
+                        <figure class="telephone-icon-wrapper">
+                            <span class="icon-img material-icons-round">
+                                phone_in_talk
+                            </span>
+                        </figure>
+                        <div class="telephone-text">090-4041-1967</div>
+                    </div>
+                    <div class="time-inner">営業時間 9:00〜17:00</div>
+                </div>
+                <div class="contact-inner">
+                    <a href="" class="btn btn-contact">
+                        <figure class="mail-icon-wrapper">
+                            <span class="icon-img material-icons-round">
+                                mail
+                            </span>
+                        </figure>
+                        お問い合わせ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="container">
+        <div class="mainVisual">
+            <!-- <div class="mv-imgArea"> -->
+                <img src="aseets/img/mainVisual.jpg" alt="MV画像">
+            <!-- </div> -->
+            <!-- <div class="mv-titleArea">
+                <h2 class="mv-title">蔵王の森の中にある<span>便利屋</span>です</h2>
+                <p class="mv-title-text">ハウスクリーニングからリフォーム、<br>薪割り等の雑用まで、幅広くお手伝いいたします！</p>
+            </div>
+            <div class="mv-person-img">
+                <img src="aseets/img/person.png" alt="作業員">
+            </div> -->
+        </div>
+
+        <div id="content">
+            <aside class="sidebar">
+                <div class="nav-wrapper">
+                    <nav class="nav">
+                        <div class="nav-list">
+                            <a href="index.html" class="nav-item">
+                                <figure class="icon-wrapper">
+                                    <span class="icon-img material-icons-round">
+                                        home
+                                    </span>
+                                </figure>
+                                ホーム
+                            </a>
+                            <a href="index.html" class="nav-item">
+                                <figure class="icon-wrapper">
+                                    <span class="icon-img material-icons-round">
+                                        apartment
+                                    </span>
+                                </figure>
+                                会社概要
+                            </a>
+                            <a href="index.html" class="nav-item">
+                                <figure class="icon-wrapper">
+                                    <span class="icon-img material-icons-round">
+                                        cleaning_services
+                                    </span>
+                                </figure>
+                                各種料金
+                            </a>
+                            <a href="index.html" class="nav-item">
+                                <figure class="icon-wrapper">
+                                    <span class="icon-img material-icons-round">
+                                        mail
+                                    </span>
+                                </figure>
+                                お問い合わせ
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="service-list-wrapper">
+                    <div class="service-list-title">主要サービス</div>
+                    <div class="service-list">
+                        <a href="" class="service-list-item">
+                            <figure class="icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    arrow_right
+                                </span>
+                            </figure>
+                            ハウスクリーニング
+                        </a>
+                        <a href="" class="service-list-item">
+                            <figure class="icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    arrow_right
+                                </span>
+                            </figure>
+                            施工代行
+                        </a>
+                        <a href="" class="service-list-item">
+                            <figure class="icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    arrow_right
+                                </span>
+                            </figure>
+                            エアコンクリーニング
+                        </a>
+                        <a href="" class="service-list-item">
+                            <figure class="icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    arrow_right
+                                </span>
+                            </figure>
+                            伐採、薪割り
+                        </a>
+                        <a href="" class="service-list-item">
+                            <figure class="icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    arrow_right
+                                </span>
+                            </figure>
+                            リフォーム
+                        </a>
+                        <a href="" class="service-list-item">
+                            <figure class="icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    arrow_right
+                                </span>
+                            </figure>
+                            追加枠1
+                        </a>
+                        <a href="" class="service-list-item">
+                            <figure class="icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    arrow_right
+                                </span>
+                            </figure>
+                            追加枠2
+                        </a>
+                        <a href="" class="service-list-item">
+                            <figure class="icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    arrow_right
+                                </span>
+                            </figure>
+                            追加枠3
+                        </a>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="main">
+
+                <section class="price">
+                    <div class="price-img">
+                        <img src="aseets/img/basic-fee.jpg" alt="">
+                    </div>
+                </section>
+
+                <section class="serivce">
+                    <div class="service-title">こんなお困りごと、おまかせください</div>
+                    <div class="cp_arrows">
+                        <div class="cp_arrow"></div>
+                        <div class="cp_arrow"></div>
+                    </div>
+                    <div class="main-service">
+                        <ul class="main-service-list">
+                            <li class="main-service-item">
+                                <img src="aseets/img/list-houseCleaning.png" alt="ハウスクリーニングのイメージ図">
+                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
+                            </li>
+                            <li class="main-service-item">
+                                <img src="aseets/img/list-construction.png" alt="施工代行のイメージ図">
+                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
+                            </li>
+                            <li class="main-service-item">
+                                <img src="aseets/img/list-airconditonerCleaning.png" alt="エアコンクリーニングのイメージ図">
+                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
+                            </li>
+                            <li class="main-service-item">
+                                <img src="aseets/img/list-choppingWood.png" alt="伐採、薪割りのイメージ図">
+                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="" class="btn btn-contact btn-detail">
+                            <figure class="mail-icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    check_circle
+                                </span>
+                            </figure>
+                            詳しくはこちら
+                        </a>
+                </section>
+
+                <section class="subVisual">
+                    <div class="subVisual-text">どのようなお悩み事も親身に対応いたします！<br>ご気軽にご相談ください！</div>
+                    <div class="telephone-inner sub-telephone">
+                        <figure class="telephone-icon-wrapper">
+                            <span class="icon-img material-icons-round">
+                                phone_in_talk
+                            </span>
+                        </figure>
+                        <div class="telephone-text">090-4041-1967</div>
+                    </div>
+                    <div class="time-inner sub-time">営業時間 9:00〜17:00</div>
+                    <div class="contact-inner sub-contact">
+                        <a href="" class="btn btn-contact">
+                            <figure class="mail-icon-wrapper">
+                                <span class="icon-img material-icons-round">
+                                    mail
+                                </span>
+                            </figure>
+                            お問い合わせ
+                        </a>
+                        <div class="subVisual-person-img">
+                            <img src="aseets/img/person2.png" alt="作業員2">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="">
+
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+        <footer id="footer">
+            <div class="footer-inner">
+                <div class="footer-logo">
+                    <a href="."><img src="aseets/img/logo.jpg" alt="ロゴ"></a>
+                </div>
+                <div class="footer-nav-area">
+                    <nav class="footer-nav">
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item">
+                                <a href="">ホーム</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="">会社概要</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="">各種料金</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="">プライバシーポリシー</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="copyright">
+                        &copy;2024 Foreste in take
+                    </div>
+                </div>
+                <div class="contact-inner">
+                    <a href="" class="btn btn-contact">
+                        <figure class="mail-icon-wrapper">
+                            <span class="icon-img material-icons-round">
+                                mail
+                            </span>
+                        </figure>
+                        お問い合わせ
+                    </a>
+                </div>
+            </div>
+        </footer>
+    
+    <!-- jQueryの読み込み、scriptタグ：bodyタグの直前に設置（読み込み速度向上のため） -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><!-- 最新バージョン確認すること -->
+    <script src="js/script.js"></script><!-- 名前の整合性合わせること -->
+
+</body>
+</html>
