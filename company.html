@@ -12,7 +12,7 @@
     <meta property="og:site_name" content="便利屋 Foreste in take" /><!-- サイト名やブランド情報 -->
     <meta property="og:image" content=" サムネイル画像のURL" /><!-- 1200px✕630px(fb対策) -->
     <!-- /OGP設定 -->
-    <title>便利屋 Foreste in take</title><!-- ブラウザのタブに表示される名前 -->
+    <title>会社概要 | 便利屋 Foreste in take</title><!-- ブラウザのタブに表示される名前 -->
     <!-- googleフォント参照：googleフォントのサイト https://fonts.google.com/ から使うフォントのコードをコピペ　-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
     <header id="header">
         <div class="header-inner">
             <div class="header-logo">
-                <a href="."><img src="aseets/img/logo-header.jpg" alt="便利屋Foreste in takeのロゴマーク"></a>
+                <a href="."><img src="aseets/img/logo-header.jpg" alt="ロゴ"></a>
             </div>
             <div class="contact">
                 <div class="telephone-time-wrapper">
@@ -63,13 +63,17 @@
     </header>
 
     <div id="container">
-        <div class="mainVisual">
-                <picture> <!-- MVのレスポンシブ対応-->
-                    <!-- ブラウザ幅最大～1250pxまでPC用の画像表示 -->
-                    <source srcset="aseets/img/mainVisual.jpg" media="(min-width: 1250px)" type="image/jpg">
-                    <!-- ブラウザ幅1250px～から最小幅までSP用の画像表示 -->
-                    <img src="aseets/img/SP-mainVisual.jpg" alt=”便利屋のメインビジュアル”>
-                </picture>
+        <div class="visual-company">
+            <!-- <div class="mv-imgArea"> -->
+                <img src="aseets/img/visual-company.png" alt="MV画像">
+            <!-- </div> -->
+            <!-- <div class="mv-titleArea">
+                <h2 class="mv-title">蔵王の森の中にある<span>便利屋</span>です</h2>
+                <p class="mv-title-text">ハウスクリーニングからリフォーム、<br>薪割り等の雑用まで、幅広くお手伝いいたします！</p>
+            </div>
+            <div class="mv-person-img">
+                <img src="aseets/img/person.png" alt="作業員">
+            </div> -->
         </div>
 
         <div id="content">
@@ -186,72 +190,72 @@
 
             <main class="main">
 
-                <section class="price">
-                    <div class="price-img">
-                        <img src="aseets/img/basic-fee2.png" alt="基本料金は税込1500円から">
+                <section class="head-message">
+                    <h3 class="head-message-title">代表挨拶</h3>
+                    <div class="head-message-text-wrapper">
+                        <p class="head-message-text">
+                            Foreste in take 代表の武田です。<br>
+                            わたしたちは宮城県蔵王町にある遠刈田温泉付近を拠点として、<br>
+                            日常のさまざまなお困りごとのお手伝いをさせていただいております。<br>
+                            ハウスクリーニング、エアコンクリーニングをはじめとする清掃代行業務をはじめ、
+                            DIYなどの施工代行業務、内装のリフォーム業務、不要になった木の伐採ならびに伐採木の薪加工業務、
+                            除草業務等幅広く活動しております。<br>
+                            それぞれの分野に精通したプロが在籍しており、安全・安心・丁寧な施工を心がけております。
+                            サービスに記載されていないお困りごとについても、お手伝いできることを一緒に考えさせていただければと思いますので、
+                            気兼ねなくお問い合わせください。<br>
+                            お待ちしております。
+                        </p>
+                        <div class="head-img-wrapper">
+                            <img src="aseets/img/head-img.png" alt="">
+                        </div>
                     </div>
                 </section>
 
-                <section class="serivce">
-                    <div class="service-title">こんなお困りごと、おまかせください!</div>
-                    <div class="cp_arrows">
-                        <div class="cp_arrow"></div>
-                        <div class="cp_arrow"></div>
+                <section class="company-info">
+                    <h3 class="company-info-title">会社概要</h3>
+                    <div class="company-info-table">
+                        <table class="table01">
+                            <tr>
+                                <th>会社名</th>
+                                <td>便利屋 Foreste in take</td>
+                            </tr>
+                            <tr>
+                                <th>設立</th>
+                                <td>2024.xx.xx</td>
+                            </tr>
+                            <tr>
+                                <th>代表</th>
+                                <td>武田 和俊</td>
+                            </tr>
+                            <tr>
+                                <th>スタッフ数</th>
+                                <td>代表ほか3名</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>〒989-0916 宮城県刈田郡蔵王町遠刈田温泉清水原1-215</td>
+                            </tr>
+                            <tr>
+                                <th>事業内容</th>
+                                <td>便利屋、清掃業、リフォームその他</td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="main-service">
-                        <ul class="main-service-list">
-                            <li class="main-service-item">
-                                <img src="aseets/img/list-houseCleaning.png" alt="ハウスクリーニングのイメージ図">
-                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
-                            </li>
-                            <li class="main-service-item">
-                                <img src="aseets/img/list-construction.png" alt="施工代行のイメージ図">
-                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
-                            </li>
-                            <li class="main-service-item">
-                                <img src="aseets/img/list-airconditonerCleaning.png" alt="エアコンクリーニングのイメージ図">
-                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
-                            </li>
-                            <li class="main-service-item">
-                                <img src="aseets/img/list-choppingWood.png" alt="伐採、薪割りのイメージ図">
-                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
-                            </li>
-                        </ul>
+        
+                    <div class="company-info-access">
+                        <div class="access">
+                            <div class="access-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3138.223776983961!2d140.5413152763818!3d38.134989291328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a4827f02a4f39%3A0x53148aca8243e93e!2z44CSOTg5LTA5MTYg5a6u5Z-O55yM5YiI55Sw6YOh6JS1546L55S66YGg5YiI55Sw5rip5rOJ5riF5rC05Y6f!5e0!3m2!1sja!2sjp!4v1729995336049!5m2!1sja!2sjp" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="access-map-link">
+                                <a href="https://maps.app.goo.gl/vrnbmMP2DA4tJFf67" target="_blank">Google mapで見る</a>
+                            </div>
+                        </div>
                     </div>
-                    <a href="service.html" class="btn btn-contact btn-detail">
-                            <figure class="mail-icon-wrapper">
-                                <span class="icon-img material-icons-round">
-                                    check_circle
-                                </span>
-                            </figure>
-                            詳しくはこちら
-                        </a>
                 </section>
 
                 <section class="subVisual">
-                    <div class="subVisual-text">どのようなお悩み事も<br class="SP-only">親身に対応いたします！<br><span>ご気軽に<br class="SP-only">ご相談ください！</span></div>
-                    <div class="telephone-inner sub-telephone">
-                        <figure class="telephone-icon-wrapper">
-                            <span class="icon-img material-icons-round">
-                                phone_in_talk
-                            </span>
-                        </figure>
-                        <div class="telephone-text"><a href="tel:090-4041-1967">090-4041-1967</a></div>
-                    </div>
-                    <div class="time-inner sub-time">営業時間 9:00〜17:00</div>
-                    <div class="contact-inner sub-contact">
-                        <a href="mailto:take2475kazu@yahoo.co.jp?subject=お問い合わせ内容を本文にご記載ください&body=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%80%81%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E8%A8%98%E5%86%85%E5%AE%B9%E3%81%AB%E8%A8%98%E8%BC%89%E3%81%AE%E3%81%86%E3%81%88%E3%80%81%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%80%E3%80%80%EF%BC%9A%0D%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%0D%0AForeste-in-take" class="btn btn-contact">
-                            <figure class="mail-icon-wrapper">
-                                <span class="icon-img material-icons-round">
-                                    mail
-                                </span>
-                            </figure>
-                            お問い合わせ
-                        </a>
-                        <div class="subVisual-person-img">
-                            <img src="aseets/img/person2.png" alt="工具を持つ作業員">
-                        </div>
-                    </div>
+                    
                 </section>
 
                 <section class="">
@@ -265,7 +269,7 @@
     <footer id="footer">
         <div class="footer-inner">
             <div class="footer-logo">
-                <a href="."><img src="aseets/img/logo-footer.png" alt="便利屋Foreste in takeのロゴマーク"></a>
+                <a href="."><img src="aseets/img/logo-footer.png" alt="ロゴ"></a>
             </div>
             <div class="footer-nav-area">
                 <nav class="footer-nav">

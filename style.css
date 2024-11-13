@@ -7,10 +7,6 @@ body {
     line-height: 1;
 }
 
-a {
-    text-decoration: none;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -102,21 +98,12 @@ img {
 }
 
 #container {
-    padding: 0 70px;
-}
-@media screen and (max-width: 1100px)  {
-    #container {
-        padding: 0 10px;
-    }
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 #header {
-    padding: 0 70px;
-}
-@media screen and (max-width: 1100px)  {
-    #header {
-        padding: 0;
-    }
+    margin: 0 auto;
 }
 
 .header-inner {
@@ -127,23 +114,10 @@ img {
     height: 100px;
     align-items: center;
 }
-@media screen and (max-width: 1100px)  {
-    .header-inner {
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-    }
-}
 
 .header-logo {
-    max-width: 373px;
+    max-width: 400px;
     transition: 0.3s;
-}
-@media screen and (max-width: 1100px)  {
-    .header-logo {
-        max-width: 100%;
-        text-align: center;
-    }
 }
 
 .header-logo:hover {
@@ -154,24 +128,10 @@ img {
     display: flex;
     align-items: center;
 }
-@media screen and (max-width: 1100px)  {
-    .contact {
-        flex-direction: column;
-        padding: 20px 0;
-    }
-    .telephone-time-wrapper {
-        padding-bottom: 10px;
-    }
-}
 
 .telephone-inner {
     display: flex;
     padding-right: 10px;
-}
-@media screen and (max-width: 1100px)  {
-    .telephone-inner {
-        padding-right: 0;
-    }
 }
 
 .telephone-text {
@@ -186,105 +146,22 @@ img {
     padding-left: 50px;
     line-height: 1.5;
 }
-@media screen and (max-width: 1100px)  {
-    .icon-img {
-        font-size: 40px;
-    }
-    .telephone-text {
-        font-size: 40px;
-        border: none;
-    }
-    .time-inner {
-        font-size: 24px;
-    }
-    .btn-contact {
-        font-size: 24px;
-    }
-}
 
 .mail-icon-wrapper {
     padding-right: 5px;
 }
 
-.mainVisual {
-    position: relative;
-    max-width: 1300px;
-    margin: auto;
-}
-.mainVisual .SP {
-    display: none;
-}
-@media screen and (max-width: 1100px)  {
-    .mainVisual {
-        width: 100%;
-    }
-    .mainVisual .SP {
-        display: block;
-    }
-    .mainVisual .PC {
-        display: none;
-    }
-}
-
-/* .mv-imgArea {
-    text-align: center;
-    max-width: 1300px;
-    margin: auto;
-}
-
-.mv-titleArea {
-    position: absolute;
-    top: 0;
-    left: 10px;
-    color: #ffffff;
-    letter-spacing: 0.05em;
-}
-
-.mv-title {
-    font-size: 40px;
-    line-height: 1.5;
-}
-
-.mv-title span {
-    font-size: 96px;
-    color: #DA6167;
-}
-
-.mv-title-text {
-    font-size: 32px;
-    line-height: 1.5;
-}
-
-.mv-person-img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-} */
-
 #content {
     display: flex;
-    padding: 30px 0 40px;
+    margin: 30px 0 40px;
     justify-content: center;
 
 }
-@media screen and (max-width: 1100px)  {
-    #content {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
-}
-
 
 .sidebar {
-    width: 380px;
+    width: 350px;
+    margin-right: 30px;
 }
-@media screen and (max-width: 1100px)  {
-    .sidebar {
-        width: 100%;
-    }
-}
-
 
 .nav {
     padding: 20px;
@@ -292,21 +169,7 @@ img {
 
 .nav-wrapper {
     background-color: #639364;
-    margin-right: 30px;
-}
-@media screen and (max-width: 1100px)  {
-    .nav-wrapper {
-        margin-right: 0;
-        
-    }
-}
-
-@media screen and (max-width: 1100px)  {
-    .nav-list {
-        display: flex;
-        column-gap: 10px;
-        justify-content: space-around;
-    }
+    margin-bottom: 40px;
 }
 
 .nav-item {
@@ -328,34 +191,9 @@ img {
 .nav-item:hover {
     opacity: 0.7;
 }
-@media screen and (max-width: 1100px)  {
-    .nav-item {
-        flex-direction: column;
-        padding: 6px;
-        font-size: 8px;
-        margin-bottom: 0;
-        width: 100px;
-    }
-}
-
 
 .icon-wrapper {
     margin-right: 13px;
-}
-@media screen and (max-width: 1100px)  {
-    .icon-wrapper {
-        margin-right: 0;
-    }
-}
-
-.service-list-wrapper {
-    padding-top: 60px;
-    padding-right: 30px;
-}
-@media screen and (max-width: 1100px)  {
-    .service-list-wrapper {
-        display: none;
-    }
 }
 
 .service-list-title {
@@ -379,7 +217,7 @@ img {
     color: #787878;
     line-height: 1.5;
     letter-spacing: 0.05em;
-    border-bottom: solid 5px #DA6167;
+    border-bottom: solid 3px #DA6167;
     transition: 0.3s;
 }
 .service-list-item:hover {
@@ -388,17 +226,12 @@ img {
     color: #ffffff;
 }
 
-#main {
-    width: 920px;
+.main {
+    max-width: 920px;
 }
 
 .price {
     max-width: 920px;
-}
-@media screen and (max-width: 1100px)  {
-    .price {
-        max-width: 100%;
-    }
 }
 
 .service-title {
@@ -406,50 +239,14 @@ img {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    padding-top: 40px;
-}
-@media screen and (max-width: 1100px)  {
-    .service-title {
-        font-size: 20px;
-    }
+    margin-top: 40px;
 }
 
 .main-service-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 30px;
+    gap: 10px;
 }
-@media screen and (max-width: 1100px)  {
-    .main-service-list {
-        /* grid-template-columns: repeat(1, minmax(0, 1fr)); */
-        gap: 10px;
-    }
-}
-
-.main-service-item {
-    max-width: 445px;
-}
-@media screen and (max-width: 1100px)  {
-    .main-service-item {
-        max-width: 100%;
-    }
-}
-
-/* .service-img-title {
-    text-align: center;
-    width: 440px;
-    position: absolute;
-    font-size: 48px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    text-shadow:
-    3px 3px 0 #639364,
-    -3px 3px 0 #639364,
-    -3px -3px 0 #639364,
-    3px -3px 0 #639364;
-} */
 
 .btn-detail {
     margin-top: 30px;
@@ -459,12 +256,6 @@ img {
 .subVisual {
     background-color: #FFDB83;
     position: relative;
-    margin-bottom: 40px;
-}
-@media screen and (max-width: 1100px)  {
-    .subVisual {
-        margin-bottom: 10px;
-    }
 }
 
 .subVisual-text {
@@ -477,51 +268,20 @@ img {
 .SP-only {
     display: none;
 }
-@media screen and (max-width: 1100px)  {
-    .subVisual-text {
-        font-size: 15px;
-        padding: 20px 0 0 20px;
-    }
-    .subVisual-text .SP-only {
-        display: block;
-    }
-    .subVisual-text span {
-        font-size: 20px;
-        font-weight: bold;
-    }
-}
 
 .sub-telephone {
     padding-left: 42px;
     color: #DA6167;
-}
-@media screen and (max-width: 1100px)  {
-    .sub-telephone {
-        padding-left: 20px;
-        padding-top: 20px;
-    }
 }
 
 .sub-time {
     color: #787878;
     padding-left: 90px;
 }
-@media screen and (max-width: 1150px)  {
-    .sub-time {
-        padding-left: 63px;
-    }
-}
 
 .sub-contact {
     display: inline-block;
     padding: 10px 0 57px 90px;
-}
-@media screen and (max-width: 1150px)  {
-    .sub-contact {
-        display: block;
-        margin: 0;
-        padding: 10px 10px;
-    }
 }
 
 .subVisual-person-img {
@@ -530,58 +290,23 @@ img {
     bottom: 0;
     right: 5%;
 }
-@media screen and (max-width: 860px)  {
-    .subVisual-person-img {
-        width: 200px;
-        top: 20px;
-    }
-}
-@media screen and (max-width: 600px)  {
-    .subVisual-person-img {
-        width: 125px;
-        top: 20px;
-    }
-}
-
 
 #footer {
     background-color: #639364;
     height: 100px;
     padding: 15px 70px;
 }
-@media screen and (max-width: 1100px)  {
-    #footer {
-        padding: 10px 10px;
-        height: auto;
-    }
-}
 
 .footer-inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     margin: auto;
     max-width: 1300px;
-}
-@media screen and (max-width: 1100px)  {
-    .footer-inner {
-        align-items: start;
-    }
 }
 
 .footer-logo {
     max-width: 250px;
-}
-@media screen and (max-width: 1100px)  {
-    .footer-logo {
-        max-width: 120px;
-    }
-}
-
-@media screen and (max-width: 1100px)  {
-    .footer-nav-area {
-        text-align: center;
-    }
 }
 
 .footer-nav-list {
@@ -589,15 +314,6 @@ img {
     column-gap: 24px;
     color: #ffffff;
     font-size: 15px;
-    padding-top: 15px;
-}
-@media screen and (max-width: 1100px)  {
-    .footer-nav-list {
-        flex-direction: column;
-        font-size: 10px;
-        padding-top: 0;
-        gap: 20px;
-    }
 }
 
 .footer-nav-item {
@@ -609,15 +325,9 @@ img {
 
 .copyright {
     text-align: center;
-    margin: 30px 0 9px;
+    margin-top: 50px;
     color: #ffffff;
     font-size: 10px;
-}
-@media screen and (max-width: 1100px)  {
-    .copyright {
-        margin-bottom: 0;
-        font-size: 8px;
-    }
 }
 
 .footer-inner .contact-inner .btn {
@@ -630,23 +340,568 @@ img {
 .footer-inner .icon-img {
     font-size: 40px;
 }
-@media screen and (max-width: 1100px)  {
+
+/* company.html */
+
+.head-message {
+    margin-bottom: 70px;
+}
+
+.head-message-title,
+.company-info-title,
+.service-detail-title {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    color: #639364;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #639364;
+}
+
+.head-message-text-wrapper {
+    display: flex;
+    align-items: start;
+}
+
+.head-message-text {
+    width: 70%;
+    font-size: 15px;
+    color: #787878;
+    letter-spacing: 0.05em;
+    line-height: 1.8;
+    margin-right: 10px;
+}
+
+.head-img-wrapper {
+    width: 30%;
+}
+
+.company-info-table {
+    margin-bottom: 30px;
+}
+
+.table01 {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table01 tr {
+    border-bottom: solid 1px #ddd;
+}
+
+.table01 th,
+.table01 td {
+    font-size: 20px;
+    color: #787878;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    padding: 20px 10px 20px 0;
+    text-align: left;
+}
+
+.table01 tr:first-child td,
+.table01 tr:first-child th {
+    padding-top: 0;
+}
+
+.access-map {
+    margin-bottom: 10px
+}
+
+.access-map-link {
+    color: #787878;
+}
+
+/* service.index */
+.basic-fee {
+    margin-bottom: 70px;
+}
+
+.basic-fee-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    background-color: #639364;
+}
+
+.basic-fee-item {
+    display: flex;
+    color: #ffffff;
+    padding: 20px 20px;
+}
+
+.basic-fee-item-img {
+    margin-right: 20px;
+    max-width: 140px;
+    object-fit: contain;
+}
+
+.basic-fee-item-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+.basic-fee-item-subtitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+}
+
+.basic-fee-item-subtitle .name {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.basic-fee-item-subtitle .price {
+    font-size: 36px;
+}
+
+.basic-fee-item-subtitle .tax {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.service-detail-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.service-detail-list-item {
+    position: relative;
+}
+
+.service-detail-list-item-img {
+    opacity: 0.4;
+}
+
+.service-detail-list-item-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #639364;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+
+.service-detail-list-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* .table02 {
+} */
+
+.table02 th,
+.table02 td {
+    font-size: 30px;
+    font-weight: bold;
+    color: #639364;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.table02 th {
+    padding-right: 20px;
+}
+.table02 th span,
+.table02 td span {
+    font-size: 24px;
+    font-weight: normal;
+}
+.table02 .tax-include {
+    font-size: 14px;
+}
+
+/* privacyPolicy */
+.privacy-policy-body {
+    margin-left: 20px;
+}
+
+.privacy-policy-explain {
+    font-size: 15px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+.privacy-policy-item {
+    padding-bottom: 30px;
+}
+
+.privacy-policy-item-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #639364;
+    padding-bottom: 15px;
+}
+
+.privacy-policy-item-text {
+    font-size: 15px;
+    line-height: 1.5;
+    list-style-type: decimal;
+}
+
+.privacy-policy-item-text li {
+    margin-left: 20px;
+}
+
+.privacy-policy-item-text-second {
+    list-style: lower-latin;
+    margin-left: 20px;
+}
+
+.privacy-policy-item-text .contact-link {
+    text-decoration: underline;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.privacy-policy-item-text .contact-link:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1250px)  {
+    .header-inner {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .header-logo {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .contact {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .telephone-time-wrapper {
+        padding-bottom: 10px;
+    }
+
+    .telephone-inner {
+        padding-right: 0;
+    }
+
+    .icon-img {
+        font-size: 40px;
+    }
+
+    .telephone-text {
+        font-size: 40px;
+        border: none;
+    }
+
+    .time-inner {
+        font-size: 24px;
+    }
+
+    .btn-contact {
+        font-size: 24px;
+    }
+
+    #content {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .nav-wrapper {
+        margin-bottom: 0;
+        
+    }
+
+    .nav-list {
+        display: flex;
+        column-gap: 10px;
+        justify-content: space-around;
+    }
+
+    .nav-item {
+        flex-direction: column;
+        padding: 6px;
+        font-size: 15px;
+        margin-bottom: 0;
+        width: 150px;
+    }
+
+    .icon-wrapper {
+        margin-right: 0;
+    }
+
+    .service-list-wrapper {
+        display: none;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+
+    .price {
+        max-width: 100%;
+    }
+
+    .main-service-list {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 1024px)  {
+    .service-title {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .subVisual-text {
+        font-size: 15px;
+        padding: 20px 0 0 20px;
+    }
+
+    .subVisual-text .SP-only {
+        display: block;
+    }
+
+    .subVisual-text span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .sub-telephone {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .sub-contact {
+        display: block;
+        margin: 0;
+        padding: 10px 10px;
+    }
+
+    .subVisual-person-img {
+        width: 200px;
+        top: 20px;
+    }
+
+    .subVisual-person-img {
+        width: 125px;
+        top: 20px;
+    }
+
+    #footer {
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .footer-inner {
+        align-items: start;
+    }
+
+    .footer-logo {
+        max-width: 120px;
+    }
+
+    .footer-nav-area {
+        text-align: center;
+    }
+
+    .footer-nav-list {
+        flex-direction: column;
+        font-size: 10px;
+        padding-top: 0;
+        gap: 20px;
+    }
+
+    .copyright {
+        margin-bottom: 0;
+        font-size: 8px;
+    }
+
     .footer-inner .contact-inner .btn {
         font-size: 10px;
         max-width: 120px;
         padding: 10px;
     }
+
     .footer-inner .icon-img {
         font-size: 20px;
     }
+
+    /* company.html */
+
+    .head-message,
+    .company-info {
+        margin: 10px 0 40px 0;
+        padding: 0 15px;
+    }
+
+    .head-message-title,
+    .company-info-title,
+    .service-detail-title {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .head-message-text-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .head-message-text {
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .head-img-wrapper {
+        width: 60%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .table01 th, .table01 td {
+        padding: 10px 5px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .access-map-link {
+        font-size: 10px;
+    }
+
+    /* service.index */
+
+    .basic-fee {
+        margin-bottom: 20px;
+    }
+
+    .basic-fee-list {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .basic-fee-item-img {
+        max-width: 100px;
+        object-fit: contain;
+    }
+
+    .basic-fee-item-title {
+        font-size: 24px;
+    }
+
+    .basic-fee-item-subtitle {
+        font-size: 24px;
+    }
+
+    .basic-fee-item-subtitle .name {
+        font-size: 18px;
+    }
+
+    .basic-fee-item-subtitle .price {
+        font-size: 30px;
+    }
+
+    .basic-fee-item-subtitle .tax {
+        font-size: 10px;
+    }
+
+    .basic-fee-item-text {
+        font-size: 14px;
+    }
+
+    .service-detail {
+        margin: 15px;
+    }
+
+    .service-detail-list {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .service-detail-list-item-text {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .service-detail-list-title {
+        font-size: 26px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .table02 {
+        margin: 0 auto;
+    }
+
+    .table02 th,
+    .table02 td {
+        font-size: 20px;
+        padding: 5px 0;
+    }
+
+    .table02 th {
+        padding-right: 20px;
+    }
+
+    .table02 th span,
+    .table02 td span {
+    font-size: 16px;
+    font-weight: normal;
+    }
+
+    .table02 .tax-include {
+    font-size: 10px;
+    }
+
+    /* privacyPolicy */
+
+    .privacy-policy-body {
+        padding: 40px 0;
+    }
+
+    .privacy-policy-explain {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+
+    .privacy-policy-item:nth-last-child(1) {
+        padding-bottom: 0;
+    }
+    .privacy-policy-item-title {
+        font-size: 20px;
+    }
+    .privacy-policy-item-text {
+        font-size: 14px;
+    }
 }
 
+@media screen and (max-width: 768px)  {
+    .nav-item {
+        padding: 6px;
+        font-size: 8px;
+        margin-bottom: 0;
+        width: 100px;
+    }
 
-@media screen and (max-width: 1150px)  {
-}
+    .icon-wrapper {
+        margin-right: 0;
+    }
 
-@media screen and (max-width: 1000px)  {
-}
-
-@media screen and (max-width: 1100px)  {
+    .service-title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
