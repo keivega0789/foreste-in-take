@@ -1,162 +1,203 @@
 <!DOCTYPE html>
 <html lang="ja">
-<!-- OGPの使用を宣言 -->
-<head prefix="og: https://ogp.me/ns#">
-    <meta charset="UTF-8"><!-- charactersetの設定。基本はUTF-8 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- SP等への表示サイズ最適化 -->
-    <!-- OGP設定 -->
-    <meta property="og:url" content=" ページのURL" /><!-- 絶対パスで記述 -->
-    <meta property="og:type" content="website" /><!-- website,blog,article,product等 -->
-    <meta property="og:title" content="便利屋 Foreste in take" /><!-- 20文字程度 -->
-    <meta property="og:description" content="宮城の森にある便利屋さんです。ハウスクリーニングやエアコンクリーニングの日常のお困りごとや、不要な木の伐採や、施工代行等さまざまなお困りごとに対応しています。" /><!-- 80-90文字程度 -->
-    <meta property="og:site_name" content="便利屋 Foreste in take" /><!-- サイト名やブランド情報 -->
-    <meta property="og:image" content=" サムネイル画像のURL" /><!-- 1200px✕630px(fb対策) -->
-    <!-- /OGP設定 -->
-    <title>便利屋 Foreste in take</title><!-- ブラウザのタブに表示される名前 -->
-    <!-- googleフォント参照：googleフォントのサイト https://fonts.google.com/ から使うフォントのコードをコピペ　-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-    <!-- googleアイコン参照：下記コードはテンプレ。 -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-    <!-- リセットCSS参照：destyle以外にも調べてみる -->
-    <link rel="stylesheet" href="css/destyle.css">
-    <!-- CSS参照 -->
-    <link rel="stylesheet" href="style.css">
-    <!-- ファビコン設置：ファビコン生成サイト https://ao-system.net/favicongenerator/ で作成し、フォルダ直下に格納する。下記名前と整合性合うように。 -->
-    <link rel="icon" type="image/png" href="icon-192x192.png">
-    <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon-180x180.png">
-    <link rel="icon" href="favicon.ico">
+	<!-- OGPの使用を宣言 -->
+	<head prefix="og: https://ogp.me/ns#">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- OGP設定 -->
+		<meta property="og:url" content="https://foreste-in-take.com" />
+		<!-- 絶対パスで記述 -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="便利屋 Foreste in take" />
+		<meta
+			property="og:description"
+			content="宮城の森にある便利屋さんです。ハウスクリーニングやエアコンクリーニングの日常のお困りごとや、不要な木の伐採や、施工代行等さまざまなお困りごとに対応しています。"
+		/>
+		<meta property="og:site_name" content="便利屋 Foreste in take" />
+		<meta property="og:image" content="" />
+		<!-- 1200px✕630px(fb対策) -->
+		<!-- /OGP設定 -->
+		<title>便利屋 Foreste in take</title>
+		<!-- googleフォント参照：googleフォントのサイト https://fonts.google.com/ から使うフォントのコードをコピペ　-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- googleアイコン参照：下記コードはテンプレ。 -->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+			rel="stylesheet"
+		/>
+		<!-- リセットCSS参照：destyle以外にも調べてみる -->
+		<link rel="stylesheet" href="css/destyle.css" />
+		<!-- CSS参照 -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- ファビコン設置：ファビコン生成サイト https://ao-system.net/favicongenerator/ で作成し、フォルダ直下に格納する。下記名前と整合性合うように。 -->
+		<link rel="icon" type="image/png" href="icon-192x192.png" />
+		<link
+			rel="apple-touch-icon"
+			type="image/png"
+			href="apple-touch-icon-180x180.png"
+		/>
+		<link rel="icon" href="favicon.ico" />
+	</head>
+	<body class="fadeout">
+		<header id="header">
+			<div class="header-inner">
+				<div class="header-logo">
+					<a href="."
+						><img
+							src="aseets/img/logo-header.jpg"
+							alt="便利屋Foreste in takeのロゴマーク"
+					/></a>
+				</div>
+				<div class="contact">
+					<div class="telephone-time-wrapper">
+						<div class="telephone-inner">
+							<figure class="telephone-icon-wrapper">
+								<span class="icon-img material-icons-round">
+									phone_in_talk
+								</span>
+							</figure>
+							<div class="telephone-text">
+								<a href="tel:090-4041-1967">090-4041-1967</a>
+							</div>
+						</div>
+						<div class="time-inner">営業時間 9:00〜17:00</div>
+					</div>
+					<div class="contact-inner">
+						<a
+							href="mailto:take2475kazu@yahoo.co.jp?subject=お問い合わせ内容を本文にご記載ください&body=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%80%81%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E8%A8%98%E5%86%85%E5%AE%B9%E3%81%AB%E8%A8%98%E8%BC%89%E3%81%AE%E3%81%86%E3%81%88%E3%80%81%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%80%E3%80%80%EF%BC%9A%0D%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%0D%0AForeste-in-take"
+							class="btn btn-contact"
+						>
+							<figure class="mail-icon-wrapper">
+								<span class="icon-img material-icons-round">
+									mail
+								</span>
+							</figure>
+							お問い合わせ
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
 
-</head>
-<body>
+		<div id="container">
+			<div class="mainVisual">
+				<picture>
+					<!-- MVのレスポンシブ対応-->
+					<!-- ブラウザ幅最大～1250pxまでPC用の画像表示 -->
+					<source
+						srcset="aseets/img/mainVisual.jpg"
+						media="(min-width: 1250px)"
+						type="image/jpg"
+					/>
+					<!-- ブラウザ幅1250px～から最小幅までSP用の画像表示 -->
+					<img
+						src="aseets/img/SP-mainVisual.jpg"
+						alt="”便利屋のメインビジュアル”"
+					/>
+				</picture>
+			</div>
 
-    <header id="header">
-        <div class="header-inner">
-            <div class="header-logo">
-                <a href="."><img src="aseets/img/logo-header.jpg" alt="便利屋Foreste in takeのロゴマーク"></a>
-            </div>
-            <div class="contact">
-                <div class="telephone-time-wrapper">
-                    <div class="telephone-inner">
-                        <figure class="telephone-icon-wrapper">
-                            <span class="icon-img material-icons-round">
-                                phone_in_talk
-                            </span>
-                        </figure>
-                        <div class="telephone-text"><a href="tel:090-4041-1967">090-4041-1967</a></div>
-                    </div>
-                    <div class="time-inner">営業時間 9:00〜17:00</div>
-                </div>
-                <div class="contact-inner">
-                    <a href="mailto:take2475kazu@yahoo.co.jp?subject=お問い合わせ内容を本文にご記載ください&body=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%80%81%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E8%A8%98%E5%86%85%E5%AE%B9%E3%81%AB%E8%A8%98%E8%BC%89%E3%81%AE%E3%81%86%E3%81%88%E3%80%81%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%80%E3%80%80%EF%BC%9A%0D%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%0D%0AForeste-in-take" class="btn btn-contact">
-                        <figure class="mail-icon-wrapper">
-                            <span class="icon-img material-icons-round">
-                                mail
-                            </span>
-                        </figure>
-                        お問い合わせ
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
+			<div id="content">
+				<aside class="sidebar">
+					<div class="nav-wrapper">
+						<nav class="nav">
+							<div class="nav-list">
+								<a href="." class="nav-item">
+									<figure class="icon-wrapper">
+										<span
+											class="icon-img material-icons-round"
+										>
+											home
+										</span>
+									</figure>
+									ホーム
+								</a>
+								<a href="company.html" class="nav-item">
+									<figure class="icon-wrapper">
+										<span
+											class="icon-img material-icons-round"
+										>
+											apartment
+										</span>
+									</figure>
+									会社概要
+								</a>
+								<a href="service.html" class="nav-item">
+									<figure class="icon-wrapper">
+										<span
+											class="icon-img material-icons-round"
+										>
+											cleaning_services
+										</span>
+									</figure>
+									各種料金
+								</a>
+								<a
+									href="mailto:take2475kazu@yahoo.co.jp?subject=お問い合わせ内容を本文にご記載ください&body=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%80%81%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E8%A8%98%E5%86%85%E5%AE%B9%E3%81%AB%E8%A8%98%E8%BC%89%E3%81%AE%E3%81%86%E3%81%88%E3%80%81%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%80%E3%80%80%EF%BC%9A%0D%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%0D%0AForeste-in-take"
+									class="nav-item"
+								>
+									<figure class="icon-wrapper">
+										<span
+											class="icon-img material-icons-round"
+										>
+											mail
+										</span>
+									</figure>
+									お問い合わせ
+								</a>
+							</div>
+						</nav>
+					</div>
 
-    <div id="container">
-        <div class="mainVisual">
-                <picture> <!-- MVのレスポンシブ対応-->
-                    <!-- ブラウザ幅最大～1250pxまでPC用の画像表示 -->
-                    <source srcset="aseets/img/mainVisual.jpg" media="(min-width: 1250px)" type="image/jpg">
-                    <!-- ブラウザ幅1250px～から最小幅までSP用の画像表示 -->
-                    <img src="aseets/img/SP-mainVisual.jpg" alt=”便利屋のメインビジュアル”>
-                </picture>
-        </div>
-
-        <div id="content">
-            <aside class="sidebar">
-                <div class="nav-wrapper">
-                    <nav class="nav">
-                        <div class="nav-list">
-                            <a href="index.html" class="nav-item">
-                                <figure class="icon-wrapper">
-                                    <span class="icon-img material-icons-round">
-                                        home
-                                    </span>
-                                </figure>
-                                ホーム
-                            </a>
-                            <a href="company.html" class="nav-item">
-                                <figure class="icon-wrapper">
-                                    <span class="icon-img material-icons-round">
-                                        apartment
-                                    </span>
-                                </figure>
-                                会社概要
-                            </a>
-                            <a href="service.html" class="nav-item">
-                                <figure class="icon-wrapper">
-                                    <span class="icon-img material-icons-round">
-                                        cleaning_services
-                                    </span>
-                                </figure>
-                                各種料金
-                            </a>
-                            <a href="mailto:take2475kazu@yahoo.co.jp?subject=お問い合わせ内容を本文にご記載ください&body=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%80%81%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E8%A8%98%E5%86%85%E5%AE%B9%E3%81%AB%E8%A8%98%E8%BC%89%E3%81%AE%E3%81%86%E3%81%88%E3%80%81%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%80%E3%80%80%EF%BC%9A%0D%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%0D%0AForeste-in-take" class="nav-item">
-                                <figure class="icon-wrapper">
-                                    <span class="icon-img material-icons-round">
-                                        mail
-                                    </span>
-                                </figure>
-                                お問い合わせ
-                            </a>
-                        </div>
-                    </nav>
-                </div>
-
-                <div class="service-list-wrapper">
-                    <div class="service-list-title">主要サービス</div>
-                    <div class="service-list">
-                        <a href="" class="service-list-item">
-                            <figure class="icon-wrapper">
-                                <span class="icon-img material-icons-round">
-                                    arrow_right
-                                </span>
-                            </figure>
-                            ハウスクリーニング
-                        </a>
-                        <a href="" class="service-list-item">
-                            <figure class="icon-wrapper">
-                                <span class="icon-img material-icons-round">
-                                    arrow_right
-                                </span>
-                            </figure>
-                            施工代行
-                        </a>
-                        <a href="" class="service-list-item">
-                            <figure class="icon-wrapper">
-                                <span class="icon-img material-icons-round">
-                                    arrow_right
-                                </span>
-                            </figure>
-                            エアコンクリーニング
-                        </a>
-                        <a href="" class="service-list-item">
-                            <figure class="icon-wrapper">
-                                <span class="icon-img material-icons-round">
-                                    arrow_right
-                                </span>
-                            </figure>
-                            伐採、薪割り
-                        </a>
-                        <a href="" class="service-list-item">
-                            <figure class="icon-wrapper">
-                                <span class="icon-img material-icons-round">
-                                    arrow_right
-                                </span>
-                            </figure>
-                            リフォーム
-                        </a>
-                        <a href="" class="service-list-item">
+					<div class="service-list-wrapper">
+						<div class="service-list-title">主要サービス</div>
+						<div class="service-list">
+							<a href="" class="service-list-item">
+								<figure class="icon-wrapper">
+									<span class="icon-img material-icons-round">
+										arrow_right
+									</span>
+								</figure>
+								ハウスクリーニング
+							</a>
+							<a href="" class="service-list-item">
+								<figure class="icon-wrapper">
+									<span class="icon-img material-icons-round">
+										arrow_right
+									</span>
+								</figure>
+								施工代行
+							</a>
+							<a href="" class="service-list-item">
+								<figure class="icon-wrapper">
+									<span class="icon-img material-icons-round">
+										arrow_right
+									</span>
+								</figure>
+								エアコンクリーニング
+							</a>
+							<a href="" class="service-list-item">
+								<figure class="icon-wrapper">
+									<span class="icon-img material-icons-round">
+										arrow_right
+									</span>
+								</figure>
+								伐採、薪割り
+							</a>
+							<a href="" class="service-list-item">
+								<figure class="icon-wrapper">
+									<span class="icon-img material-icons-round">
+										arrow_right
+									</span>
+								</figure>
+								リフォーム
+							</a>
+							<!-- <a href="" class="service-list-item">
                             <figure class="icon-wrapper">
                                 <span class="icon-img material-icons-round">
                                     arrow_right
@@ -179,131 +220,169 @@
                                 </span>
                             </figure>
                             追加枠3
-                        </a>
-                    </div>
-                </div>
-            </aside>
+                        </a> -->
+						</div>
+					</div>
+				</aside>
 
-            <main class="main">
+				<main class="main">
+					<section class="price">
+						<div class="price-img">
+							<img
+								src="aseets/img/basic-fee2.png"
+								alt="基本料金は税込1500円から"
+							/>
+						</div>
+					</section>
 
-                <section class="price">
-                    <div class="price-img">
-                        <img src="aseets/img/basic-fee2.png" alt="基本料金は税込1500円から">
-                    </div>
-                </section>
+					<section class="serivce">
+						<div class="service-title">
+							こんなお困りごと、おまかせください!
+						</div>
+						<div class="cp_arrows">
+							<div class="cp_arrow"></div>
+							<div class="cp_arrow"></div>
+						</div>
+						<div class="main-service">
+							<ul class="main-service-list">
+								<li class="main-service-item">
+									<img
+										src="aseets/img/list-houseCleaning.png"
+										alt="ハウスクリーニングのイメージ図"
+									/>
+								</li>
+								<li class="main-service-item">
+									<img
+										src="aseets/img/list-construction.png"
+										alt="施工代行のイメージ図"
+									/>
+								</li>
+								<li class="main-service-item">
+									<img
+										src="aseets/img/list-airconditonerCleaning.png"
+										alt="エアコンクリーニングのイメージ図"
+									/>
+								</li>
+								<li class="main-service-item">
+									<img
+										src="aseets/img/list-choppingWood.png"
+										alt="伐採、薪割りのイメージ図"
+									/>
+								</li>
+							</ul>
+						</div>
+						<a
+							href="service.html"
+							class="btn btn-contact btn-detail"
+						>
+							<figure class="mail-icon-wrapper">
+								<span class="icon-img material-icons-round">
+									check_circle
+								</span>
+							</figure>
+							詳しくはこちら
+						</a>
+					</section>
 
-                <section class="serivce">
-                    <div class="service-title">こんなお困りごと、おまかせください!</div>
-                    <div class="cp_arrows">
-                        <div class="cp_arrow"></div>
-                        <div class="cp_arrow"></div>
-                    </div>
-                    <div class="main-service">
-                        <ul class="main-service-list">
-                            <li class="main-service-item">
-                                <img src="aseets/img/list-houseCleaning.png" alt="ハウスクリーニングのイメージ図">
-                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
-                            </li>
-                            <li class="main-service-item">
-                                <img src="aseets/img/list-construction.png" alt="施工代行のイメージ図">
-                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
-                            </li>
-                            <li class="main-service-item">
-                                <img src="aseets/img/list-airconditonerCleaning.png" alt="エアコンクリーニングのイメージ図">
-                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
-                            </li>
-                            <li class="main-service-item">
-                                <img src="aseets/img/list-choppingWood.png" alt="伐採、薪割りのイメージ図">
-                                <!-- <p class="service-img-title">ハウスクリーニング</p> -->
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="service.html" class="btn btn-contact btn-detail">
-                            <figure class="mail-icon-wrapper">
-                                <span class="icon-img material-icons-round">
-                                    check_circle
-                                </span>
-                            </figure>
-                            詳しくはこちら
-                        </a>
-                </section>
+					<section class="subVisual">
+						<div class="subVisual-text">
+							どのようなお悩み事も<br
+								class="SP-only"
+							/>親身に対応いたします！<br /><span
+								>ご気軽に<br
+									class="SP-only"
+								/>ご相談ください！</span
+							>
+						</div>
+						<div class="telephone-inner sub-telephone">
+							<figure class="telephone-icon-wrapper">
+								<span class="icon-img material-icons-round">
+									phone_in_talk
+								</span>
+							</figure>
+							<div class="telephone-text">
+								<a href="tel:090-4041-1967">090-4041-1967</a>
+							</div>
+						</div>
+						<div class="time-inner sub-time">
+							営業時間 9:00〜17:00
+						</div>
+						<div class="contact-inner sub-contact">
+							<a
+								href="mailto:take2475kazu@yahoo.co.jp?subject=お問い合わせ内容を本文にご記載ください&body=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%80%81%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E8%A8%98%E5%86%85%E5%AE%B9%E3%81%AB%E8%A8%98%E8%BC%89%E3%81%AE%E3%81%86%E3%81%88%E3%80%81%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%80%E3%80%80%EF%BC%9A%0D%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%0D%0AForeste-in-take"
+								class="btn btn-contact"
+							>
+								<figure class="mail-icon-wrapper">
+									<span class="icon-img material-icons-round">
+										mail
+									</span>
+								</figure>
+								お問い合わせ
+							</a>
+							<div class="subVisual-person-img">
+								<img
+									src="aseets/img/person2.png"
+									alt="工具を持つ作業員"
+								/>
+							</div>
+						</div>
+					</section>
 
-                <section class="subVisual">
-                    <div class="subVisual-text">どのようなお悩み事も<br class="SP-only">親身に対応いたします！<br><span>ご気軽に<br class="SP-only">ご相談ください！</span></div>
-                    <div class="telephone-inner sub-telephone">
-                        <figure class="telephone-icon-wrapper">
-                            <span class="icon-img material-icons-round">
-                                phone_in_talk
-                            </span>
-                        </figure>
-                        <div class="telephone-text"><a href="tel:090-4041-1967">090-4041-1967</a></div>
-                    </div>
-                    <div class="time-inner sub-time">営業時間 9:00〜17:00</div>
-                    <div class="contact-inner sub-contact">
-                        <a href="mailto:take2475kazu@yahoo.co.jp?subject=お問い合わせ内容を本文にご記載ください&body=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%80%81%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E8%A8%98%E5%86%85%E5%AE%B9%E3%81%AB%E8%A8%98%E8%BC%89%E3%81%AE%E3%81%86%E3%81%88%E3%80%81%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%80%E3%80%80%EF%BC%9A%0D%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%0D%0AForeste-in-take" class="btn btn-contact">
-                            <figure class="mail-icon-wrapper">
-                                <span class="icon-img material-icons-round">
-                                    mail
-                                </span>
-                            </figure>
-                            お問い合わせ
-                        </a>
-                        <div class="subVisual-person-img">
-                            <img src="aseets/img/person2.png" alt="工具を持つ作業員">
-                        </div>
-                    </div>
-                </section>
+					<section class=""></section>
+				</main>
+			</div>
+		</div>
 
-                <section class="">
+		<footer id="footer">
+			<div class="footer-inner">
+				<div class="footer-logo">
+					<a href="."
+						><img
+							src="aseets/img/logo-footer.png"
+							alt="便利屋Foreste in takeのロゴマーク"
+					/></a>
+				</div>
+				<div class="footer-nav-area">
+					<nav class="footer-nav">
+						<ul class="footer-nav-list">
+							<li class="footer-nav-item">
+								<a href=".">ホーム</a>
+							</li>
+							<li class="footer-nav-item">
+								<a href="company.html">会社概要</a>
+							</li>
+							<li class="footer-nav-item">
+								<a href="service.html">各種料金</a>
+							</li>
+							<li class="footer-nav-item">
+								<a href="privacy-policy.html"
+									>プライバシーポリシー</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<div class="copyright">&copy;2024 Foreste in take</div>
+				</div>
+				<div class="contact-inner">
+					<a
+						href="mailto:take2475kazu@yahoo.co.jp?subject=お問い合わせ内容を本文にご記載ください&body=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%80%81%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E8%A8%98%E5%86%85%E5%AE%B9%E3%81%AB%E8%A8%98%E8%BC%89%E3%81%AE%E3%81%86%E3%81%88%E3%80%81%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%80%E3%80%80%EF%BC%9A%0D%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%0D%0AForeste-in-take"
+						class="btn btn-contact"
+					>
+						<figure class="mail-icon-wrapper">
+							<span class="icon-img material-icons-round">
+								mail
+							</span>
+						</figure>
+						お問い合わせ
+					</a>
+				</div>
+			</div>
+		</footer>
 
-                </section>
-
-            </main>
-        </div>
-    </div>
-
-    <footer id="footer">
-        <div class="footer-inner">
-            <div class="footer-logo">
-                <a href="."><img src="aseets/img/logo-footer.png" alt="便利屋Foreste in takeのロゴマーク"></a>
-            </div>
-            <div class="footer-nav-area">
-                <nav class="footer-nav">
-                    <ul class="footer-nav-list">
-                        <li class="footer-nav-item">
-                            <a href="index.html">ホーム</a>
-                        </li>
-                        <li class="footer-nav-item">
-                            <a href="company.html">会社概要</a>
-                        </li>
-                        <li class="footer-nav-item">
-                            <a href="service.html">各種料金</a>
-                        </li>
-                        <li class="footer-nav-item">
-                            <a href="privacy-policy.html">プライバシーポリシー</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="copyright">
-                    &copy;2024 Foreste in take
-                </div>
-            </div>
-            <div class="contact-inner">
-                <a href="mailto:take2475kazu@yahoo.co.jp?subject=お問い合わせ内容を本文にご記載ください&body=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%80%81%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E8%A8%98%E5%86%85%E5%AE%B9%E3%81%AB%E8%A8%98%E8%BC%89%E3%81%AE%E3%81%86%E3%81%88%E3%80%81%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%80%E3%80%80%EF%BC%9A%0D%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%0D%0A%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0A%0D%0AForeste-in-take" class="btn btn-contact">
-                    <figure class="mail-icon-wrapper">
-                        <span class="icon-img material-icons-round">
-                            mail
-                        </span>
-                    </figure>
-                    お問い合わせ
-                </a>
-            </div>
-        </div>
-    </footer>
-    
-    <!-- jQueryの読み込み、scriptタグ：bodyタグの直前に設置（読み込み速度向上のため） -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><!-- 最新バージョン確認すること -->
-    <script src="js/script.js"></script><!-- 名前の整合性合わせること -->
-
-</body>
+		jQueryの読み込み、scriptタグ：bodyタグの直前に設置（読み込み速度向上のため）
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<!-- 最新バージョン確認すること -->
+		<script src="js/script.js"></script>
+		<!-- 名前の整合性合わせること -->
+	</body>
 </html>
